@@ -10,9 +10,8 @@ namespace Day_20_Practice_ProblemRegex
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Regex");
             RegularExp patterns = new RegularExp();
-            if (patterns.validateFirstName("Gopal"))
+            if (patterns.validateLastName("thakur"))
             {
                 Console.WriteLine("Valid");
             }
