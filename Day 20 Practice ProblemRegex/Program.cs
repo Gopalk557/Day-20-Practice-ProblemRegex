@@ -11,7 +11,7 @@ namespace Day_20_Practice_ProblemRegex
         static void Main(string[] args)
         {
             RegularExp patterns = new RegularExp();
-            if (patterns.Email("gopalk557@gmail.com"))
+            if (patterns.MobileNumber("+91 9507394794"))
             {
                 Console.WriteLine("Valid");
             }

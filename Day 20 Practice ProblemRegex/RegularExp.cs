@@ -9,8 +9,8 @@ namespace Day_20_Practice_ProblemRegex
 {
      class RegularExp
     { 
-        public static string regex = "^[a-zA-Z0-9]{3,10}[.]?[a-zA-Z0-9]{3,10}[@][a-z]{3,10}[.][a-z]{2,3}[.]?([a-z]{2,2})?$";
-        public bool Email(string sample)
+        public static string regex = "[+][0-9]{2,2}[ ][6-9][0-9]{6,9}";
+        public bool MobileNumber(string sample)
         {
             return Regex.IsMatch(sample, regex);
         }
