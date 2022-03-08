@@ -11,6 +11,13 @@ namespace Day_20_Practice_ProblemRegex
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Regex");
+            RegularExp patterns = new RegularExp();
+            if (patterns.validateFirstName("Gopal"))
+            {
+                Console.WriteLine("Valid");
+            }
+            else
+                Console.WriteLine("Invalid");
             Console.ReadKey();
         }
     }
