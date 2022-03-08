@@ -9,7 +9,7 @@ namespace Day_20_Practice_ProblemRegex
 {
      class RegularExp
     { 
-        public static string regex = "[+][0-9]{2,2}[ ][6-9][0-9]{6,9}";
+        public static string regex = "^[A-Z][a-z0-9]{0,5}[.@#$_]";
         public bool MobileNumber(string sample)
         {
             return Regex.IsMatch(sample, regex);
