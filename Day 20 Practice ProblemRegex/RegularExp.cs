@@ -9,7 +9,7 @@ namespace Day_20_Practice_ProblemRegex
 {
      class RegularExp
     { 
-        public static string regex = "^[A-Z][a-z0-9]{0,5}[.@#$_]";
+        public static string regex = "^[A-Z]{1,7}[a-z0-9]{2,7}";
         public bool MobileNumber(string sample)
         {
             return Regex.IsMatch(sample, regex);
